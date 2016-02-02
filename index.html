@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<title>SurveyGraphz</title>
+</head>
+<body>
+<div id="header">
+	<h1>Welcome to SurveyGraphz</h1>
+	<h2>Where your surveys have graphz</h2>
+</div>
+<div id="main">
+	<div id = "intro">
+		SurveyGraphz is a free survey tool that makes graphs of your data.
+		<div id = "beginbutton" class="button">
+			Press this button to begin.
+		</div>
+	</div>
+	<div id = "makesurvey">
+		Survey name:<input type="text" id="surveyname"/>
+		<div id="addquestions">
+			Add question:
+			<input type="text" id="questiontext"/>
+			<select id="type">
+				<option value="radio">Radio</option>
+				<option value="checkbox">Checkbox</option>
+				<option value="text">Text</option>
+				<option value="number">Number</option>
+			</select>
+			<div id = "addbutton" class="button">
+				Add!
+			</div>
+		</div>
+		<div id="survey">
+
+		</div>
+		<div id = "submitbutton" class="button">
+			ADD DAT SHIEOT
+		</div>
+
+	</div>
+</div>
+<div id="successbox" class="floatbox">
+Here's a link to your survey: <span id="surveyurl"></span>
+</div>
+
+</body>
+
+</html>

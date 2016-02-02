@@ -1,0 +1,9 @@
+body {
+	background:#CCCCCC
+}
+
+.button {
+	display:inline;
+	max-width:300px;
+	background:#6644EE;
+}
